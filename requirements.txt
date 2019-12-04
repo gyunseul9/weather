@@ -1,0 +1,5 @@
+beautifulsoup4
+PyMySQL
+requests
+urllib3
+Pillow

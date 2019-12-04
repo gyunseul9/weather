@@ -1,0 +1,19 @@
+git clone https://gyunseul9@bitbucket.org/gyunseul9/weather.git
+
+virtualenv --python=python3.6 weather
+
+cd weather
+
+source ./bin/activate
+
+deactivate
+
+git config --global user.name "gyunseul9"
+git config --global user.email "gyunseul9@gmail.com"
+git init
+git checkout -b refactoring
+git add .
+git commit -am "init"
+git push --set-upstream origin refactoring
+
+pip3 install -r requirements.txt
